@@ -10,6 +10,7 @@
 
 @interface Home : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIImageView *imgConteiner;
 
 @end
 

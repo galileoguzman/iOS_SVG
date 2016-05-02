@@ -13,6 +13,8 @@
 		F2D3E9C61CD7B16400ABC7D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D3E9C41CD7B16400ABC7D9 /* Main.storyboard */; };
 		F2D3E9C81CD7B16400ABC7D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2D3E9C71CD7B16400ABC7D9 /* Assets.xcassets */; };
 		F2D3E9CB1CD7B16400ABC7D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D3E9C91CD7B16400ABC7D9 /* LaunchScreen.storyboard */; };
+		F2D3E9D81CD7B81A00ABC7D9 /* female_body.png in Resources */ = {isa = PBXBuildFile; fileRef = F2D3E9D61CD7B81A00ABC7D9 /* female_body.png */; };
+		F2D3E9D91CD7B81A00ABC7D9 /* male_body.png in Resources */ = {isa = PBXBuildFile; fileRef = F2D3E9D71CD7B81A00ABC7D9 /* male_body.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		F2D3E9C71CD7B16400ABC7D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2D3E9CA1CD7B16400ABC7D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2D3E9CC1CD7B16500ABC7D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2D3E9D61CD7B81A00ABC7D9 /* female_body.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = female_body.png; path = Media/female_body.png; sourceTree = "<group>"; };
+		F2D3E9D71CD7B81A00ABC7D9 /* male_body.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = male_body.png; path = Media/male_body.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +62,10 @@
 		F2D3E9BA1CD7B16400ABC7D9 /* ImageData */ = {
 			isa = PBXGroup;
 			children = (
-				F2D3E9BE1CD7B16400ABC7D9 /* AppDelegate.h */,
-				F2D3E9BF1CD7B16400ABC7D9 /* AppDelegate.m */,
-				F2D3E9C11CD7B16400ABC7D9 /* Home.h */,
-				F2D3E9C21CD7B16400ABC7D9 /* Home.m */,
-				F2D3E9C41CD7B16400ABC7D9 /* Main.storyboard */,
-				F2D3E9C71CD7B16400ABC7D9 /* Assets.xcassets */,
-				F2D3E9C91CD7B16400ABC7D9 /* LaunchScreen.storyboard */,
-				F2D3E9CC1CD7B16500ABC7D9 /* Info.plist */,
+				F2D3E9D51CD7B7A000ABC7D9 /* StoryBoards */,
+				F2D3E9D41CD7B79600ABC7D9 /* Controllers */,
+				F2D3E9D31CD7B78A00ABC7D9 /* Main */,
+				F2D3E9D21CD7B78300ABC7D9 /* Media */,
 				F2D3E9BB1CD7B16400ABC7D9 /* Supporting Files */,
 			);
 			path = ImageData;
@@ -77,6 +77,44 @@
 				F2D3E9BC1CD7B16400ABC7D9 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2D3E9D21CD7B78300ABC7D9 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				F2D3E9D61CD7B81A00ABC7D9 /* female_body.png */,
+				F2D3E9D71CD7B81A00ABC7D9 /* male_body.png */,
+				F2D3E9C71CD7B16400ABC7D9 /* Assets.xcassets */,
+			);
+			name = Media;
+			sourceTree = "<group>";
+		};
+		F2D3E9D31CD7B78A00ABC7D9 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F2D3E9CC1CD7B16500ABC7D9 /* Info.plist */,
+				F2D3E9BE1CD7B16400ABC7D9 /* AppDelegate.h */,
+				F2D3E9BF1CD7B16400ABC7D9 /* AppDelegate.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		F2D3E9D41CD7B79600ABC7D9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F2D3E9C11CD7B16400ABC7D9 /* Home.h */,
+				F2D3E9C21CD7B16400ABC7D9 /* Home.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F2D3E9D51CD7B7A000ABC7D9 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				F2D3E9C41CD7B16400ABC7D9 /* Main.storyboard */,
+				F2D3E9C91CD7B16400ABC7D9 /* LaunchScreen.storyboard */,
+			);
+			name = StoryBoards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +175,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2D3E9CB1CD7B16400ABC7D9 /* LaunchScreen.storyboard in Resources */,
+				F2D3E9D81CD7B81A00ABC7D9 /* female_body.png in Resources */,
 				F2D3E9C81CD7B16400ABC7D9 /* Assets.xcassets in Resources */,
 				F2D3E9C61CD7B16400ABC7D9 /* Main.storyboard in Resources */,
+				F2D3E9D91CD7B81A00ABC7D9 /* male_body.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

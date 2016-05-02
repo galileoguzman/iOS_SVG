@@ -24,4 +24,15 @@
     // Dispose of any resources that can be recreated.
 }
 
+//-(void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+//{
+//    UITouch *touch = [[event allTouches] anyObject];
+//    CGPoint location = [touch locationInView:touch.view];
+//    
+//    NSLog(@"Location X:%f & Y:%f", location.x, location.y);
+//}
+
+
+
+
 @end
