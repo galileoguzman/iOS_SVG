@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SVGController : UIViewController
+@interface SVGController : UIViewController<UIWebViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UIWebView *mWebView;
 @end
