@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UIImage+ColorAtPixel.h"
 
-@interface Home : UIViewController
+@interface Home : UIViewController<UIGestureRecognizerDelegate>
 
 @property (weak, nonatomic) IBOutlet UIImageView *imgConteiner;
 

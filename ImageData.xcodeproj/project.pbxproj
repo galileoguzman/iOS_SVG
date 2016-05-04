@@ -15,6 +15,7 @@
 		F2D3E9CB1CD7B16400ABC7D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D3E9C91CD7B16400ABC7D9 /* LaunchScreen.storyboard */; };
 		F2D3E9D81CD7B81A00ABC7D9 /* female_body.png in Resources */ = {isa = PBXBuildFile; fileRef = F2D3E9D61CD7B81A00ABC7D9 /* female_body.png */; };
 		F2D3E9D91CD7B81A00ABC7D9 /* male_body.png in Resources */ = {isa = PBXBuildFile; fileRef = F2D3E9D71CD7B81A00ABC7D9 /* male_body.png */; };
+		F2D3E9DF1CD7C3B700ABC7D9 /* UIImage+ColorAtPixel.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D3E9DE1CD7C3B700ABC7D9 /* UIImage+ColorAtPixel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,8 @@
 		F2D3E9CC1CD7B16500ABC7D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2D3E9D61CD7B81A00ABC7D9 /* female_body.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = female_body.png; path = Media/female_body.png; sourceTree = "<group>"; };
 		F2D3E9D71CD7B81A00ABC7D9 /* male_body.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = male_body.png; path = Media/male_body.png; sourceTree = "<group>"; };
+		F2D3E9DD1CD7C3B700ABC7D9 /* UIImage+ColorAtPixel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ColorAtPixel.h"; sourceTree = "<group>"; };
+		F2D3E9DE1CD7C3B700ABC7D9 /* UIImage+ColorAtPixel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ColorAtPixel.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,7 @@
 		F2D3E9BA1CD7B16400ABC7D9 /* ImageData */ = {
 			isa = PBXGroup;
 			children = (
+				F2D3E9DC1CD7C3B700ABC7D9 /* UIImage+ColorAtPixel */,
 				F2D3E9D51CD7B7A000ABC7D9 /* StoryBoards */,
 				F2D3E9D41CD7B79600ABC7D9 /* Controllers */,
 				F2D3E9D31CD7B78A00ABC7D9 /* Main */,
@@ -115,6 +119,15 @@
 				F2D3E9C91CD7B16400ABC7D9 /* LaunchScreen.storyboard */,
 			);
 			name = StoryBoards;
+			sourceTree = "<group>";
+		};
+		F2D3E9DC1CD7C3B700ABC7D9 /* UIImage+ColorAtPixel */ = {
+			isa = PBXGroup;
+			children = (
+				F2D3E9DD1CD7C3B700ABC7D9 /* UIImage+ColorAtPixel.h */,
+				F2D3E9DE1CD7C3B700ABC7D9 /* UIImage+ColorAtPixel.m */,
+			);
+			path = "UIImage+ColorAtPixel";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +205,7 @@
 				F2D3E9C31CD7B16400ABC7D9 /* Home.m in Sources */,
 				F2D3E9C01CD7B16400ABC7D9 /* AppDelegate.m in Sources */,
 				F2D3E9BD1CD7B16400ABC7D9 /* main.m in Sources */,
+				F2D3E9DF1CD7C3B700ABC7D9 /* UIImage+ColorAtPixel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
