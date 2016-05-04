@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F2C3EEB91CDA5C68003C1FE3 /* SVGController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C3EEB81CDA5C68003C1FE3 /* SVGController.m */; };
+		F2C3EEBC1CDA5DB3003C1FE3 /* female.svg in Resources */ = {isa = PBXBuildFile; fileRef = F2C3EEBA1CDA5DB3003C1FE3 /* female.svg */; };
+		F2C3EEBD1CDA5DB3003C1FE3 /* male.svg in Resources */ = {isa = PBXBuildFile; fileRef = F2C3EEBB1CDA5DB3003C1FE3 /* male.svg */; };
 		F2D3E9BD1CD7B16400ABC7D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D3E9BC1CD7B16400ABC7D9 /* main.m */; };
 		F2D3E9C01CD7B16400ABC7D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D3E9BF1CD7B16400ABC7D9 /* AppDelegate.m */; };
 		F2D3E9C31CD7B16400ABC7D9 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D3E9C21CD7B16400ABC7D9 /* Home.m */; };
@@ -19,6 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F2C3EEB71CDA5C68003C1FE3 /* SVGController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGController.h; sourceTree = "<group>"; };
+		F2C3EEB81CDA5C68003C1FE3 /* SVGController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVGController.m; sourceTree = "<group>"; };
+		F2C3EEBA1CDA5DB3003C1FE3 /* female.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = female.svg; path = Media/female.svg; sourceTree = "<group>"; };
+		F2C3EEBB1CDA5DB3003C1FE3 /* male.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = male.svg; path = Media/male.svg; sourceTree = "<group>"; };
 		F2D3E9B81CD7B16400ABC7D9 /* ImageData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2D3E9BC1CD7B16400ABC7D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F2D3E9BE1CD7B16400ABC7D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -86,6 +93,8 @@
 		F2D3E9D21CD7B78300ABC7D9 /* Media */ = {
 			isa = PBXGroup;
 			children = (
+				F2C3EEBA1CDA5DB3003C1FE3 /* female.svg */,
+				F2C3EEBB1CDA5DB3003C1FE3 /* male.svg */,
 				F2D3E9D61CD7B81A00ABC7D9 /* female_body.png */,
 				F2D3E9D71CD7B81A00ABC7D9 /* male_body.png */,
 				F2D3E9C71CD7B16400ABC7D9 /* Assets.xcassets */,
@@ -108,6 +117,8 @@
 			children = (
 				F2D3E9C11CD7B16400ABC7D9 /* Home.h */,
 				F2D3E9C21CD7B16400ABC7D9 /* Home.m */,
+				F2C3EEB71CDA5C68003C1FE3 /* SVGController.h */,
+				F2C3EEB81CDA5C68003C1FE3 /* SVGController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -191,6 +202,8 @@
 				F2D3E9D81CD7B81A00ABC7D9 /* female_body.png in Resources */,
 				F2D3E9C81CD7B16400ABC7D9 /* Assets.xcassets in Resources */,
 				F2D3E9C61CD7B16400ABC7D9 /* Main.storyboard in Resources */,
+				F2C3EEBC1CDA5DB3003C1FE3 /* female.svg in Resources */,
+				F2C3EEBD1CDA5DB3003C1FE3 /* male.svg in Resources */,
 				F2D3E9D91CD7B81A00ABC7D9 /* male_body.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,6 +217,7 @@
 			files = (
 				F2D3E9C31CD7B16400ABC7D9 /* Home.m in Sources */,
 				F2D3E9C01CD7B16400ABC7D9 /* AppDelegate.m in Sources */,
+				F2C3EEB91CDA5C68003C1FE3 /* SVGController.m in Sources */,
 				F2D3E9BD1CD7B16400ABC7D9 /* main.m in Sources */,
 				F2D3E9DF1CD7C3B700ABC7D9 /* UIImage+ColorAtPixel.m in Sources */,
 			);
@@ -354,6 +368,7 @@
 				F2D3E9D11CD7B16500ABC7D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
