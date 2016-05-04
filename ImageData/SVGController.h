@@ -11,4 +11,5 @@
 @interface SVGController : UIViewController<UIWebViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UIWebView *mWebView;
+- (IBAction)switchGenderChanged:(id)sender;
 @end

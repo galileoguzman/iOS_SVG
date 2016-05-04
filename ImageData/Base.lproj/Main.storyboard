@@ -72,13 +72,20 @@
                                 <color key="backgroundColor" red="1" green="0.38279496480000003" blue="0.46520774259999997" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <webView contentMode="scaleToFill" id="Me4-Mx-AZi">
-                                <rect key="frame" x="0.0" y="53" width="320" height="515"/>
+                                <rect key="frame" x="0.0" y="53" width="320" height="472"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
                                 <connections>
                                     <outlet property="delegate" destination="PTC-1Z-uPR" id="gFa-yu-Fif"/>
                                 </connections>
                             </webView>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="qLp-vw-mrK">
+                                <rect key="frame" x="136" y="528" width="51" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="switchGenderChanged:" destination="PTC-1Z-uPR" eventType="valueChanged" id="hzx-ty-x3K"/>
+                                </connections>
+                            </switch>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>

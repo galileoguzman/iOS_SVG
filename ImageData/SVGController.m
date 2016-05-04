@@ -17,9 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.mWebView.scalesPageToFit= NO;
+    self.mWebView.multipleTouchEnabled = NO;
+    self.mWebView.userInteractionEnabled = YES;
+    self.mWebView.scrollView.scrollEnabled = NO;
     
-    
-    [self setupWebViewForMale:NO];
+    [self setupWebViewForMale:YES];
     
 }
 
@@ -98,12 +101,17 @@
     NSString *path = [[NSBundle mainBundle] pathForResource:svgFile ofType:@"svg"];
     NSURL *fileURL = [[NSURL alloc] initFileURLWithPath:path];
     NSURLRequest *req = [NSURLRequest requestWithURL:fileURL];
-    self.mWebView.scalesPageToFit= NO;
-    self.mWebView.multipleTouchEnabled = NO;
-    self.mWebView.userInteractionEnabled = YES;
-    self.mWebView.scrollView.scrollEnabled = NO;
     [self.mWebView loadRequest:req];
 
 }
 
+- (IBAction)switchGenderChanged:(id)sender {
+    
+    if ([sender isOn]) {
+        [self setupWebViewForMale:YES];
+    }else{
+        [self setupWebViewForMale:NO];
+    }
+    
+}
 @end
